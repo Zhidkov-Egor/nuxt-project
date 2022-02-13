@@ -1,0 +1,10 @@
+@import "../_mixins/font-face";
+
+// font-family: 'Source Sans Pro'
+@include font('SourceSansPro', normal, 400, '~assets/fonts/sourcesanspro.woff2');
+
+// font-family: 'Source Sans Pro semiBold'
+@include font('SourceSansPro', normal, 600, '~assets/fonts/sourcesansprosemibold.woff2');
+
+// font-family: 'Inter semiBold'
+@include font('Inter', normal, 600, '~assets/fonts/Inter-SemiBold.woff2');
