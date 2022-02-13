@@ -15,10 +15,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/style/lib/normalize.css',
-    '@/assets/style/index.scss',
-  ],
+  css: ['@/assets/style/lib/normalize.css', '@/assets/style/index.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -35,16 +32,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxtjs/style-resources',
-  ],
+  modules: ['@nuxtjs/style-resources'],
   styleResources: {
     // your settings here
-    scss: [
-      '@/assets/style/_mixins/*.scss',
-      '@/assets/style/_vars/*.scss',
-    ],
-    hoistUseStatements: true  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
+    scss: ['@/assets/style/_mixins/*.scss', '@/assets/style/_vars/*.scss'],
+    hoistUseStatements: true, // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
